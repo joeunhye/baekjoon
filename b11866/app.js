@@ -12,6 +12,6 @@ while(queue.length) {
 	}
 	result.push(queue.shift())
 }
- 
+   
 
 console.log(`<${result.join(', ')}>`)
