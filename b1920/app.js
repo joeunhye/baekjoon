@@ -2,11 +2,7 @@ const fs = require("fs");
 const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
 let input = fs.readFileSync(filePath).toString().split("\n");
 
-// 1
-// 1
-// 0
-// 0
-// 1
+
 let [N, A, M, B] = input.map(v => v.split(" "));
 A = A.map(el => Number(el))
 B = B.map(el => Number(el))
