@@ -24,7 +24,7 @@ for(let i = 1; i <= t; i++) {
 
 		for(let j = 0; j < n / 2 && !flag; j++) {
 			// 대칭이 아닌 경우
-			console.log(data.slice(0, j), data.slice(j + 1) )
+			// console.log(data.slice(0, j), data.slice(j + 1) )
 			if(data[j] !== data[n - j - 1]) {
 				if(isPalindrom(data.slice(0, j) + data.slice(j + 1))) flag = true;
 				if(isPalindrom(data.slice(0, n - j - 1) + data.slice(n - j))) flag = true;
